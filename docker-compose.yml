@@ -4,7 +4,7 @@ services:
         container_name: hai945
         image: imlala/ubuntu-xfce-vnc-novnc:latest
         ports:
-            - 8618:8618
+            - 6808:6808
         environment: 
             - VNC_PASSWD=leon3441
             - GEOMETRY=1280x768
