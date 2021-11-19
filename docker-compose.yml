@@ -1,7 +1,7 @@
 services:
     ubuntu:
         public: true
-        container_name: leon3441
+        container_name: hai945
         image: imlala/ubuntu-xfce-vnc-novnc:latest
         ports:
             - 8618:8618
