@@ -1,10 +1,10 @@
 services:
     ubuntu:
         public: true
-        container_name: tzchz
+        container_name: leon3441
         image: imlala/ubuntu-xfce-vnc-novnc:latest
         ports:
-            - 6080:6080
+            - 8618:8618
         environment: 
             - VNC_PASSWD=leon3441
             - GEOMETRY=1280x768
